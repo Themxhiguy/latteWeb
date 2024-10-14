@@ -1,0 +1,14 @@
+#proxyframe {
+	width: 100%;
+	height: 400px; /* Adjust the height as needed */
+	border-top: white;
+	border-bottom: white;
+	border: none;
+	resize: both;   
+}
+
+html {
+  background-color: #1c2020;
+  color: white;
+  font-family: monospace;
+}
