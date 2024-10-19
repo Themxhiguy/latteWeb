@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+html {
+   background-color: #221F30;
+   color: white;
+   text-align: center;
+   justify-content: center;
+}
+
+.box {
+    display: block;
+    background-color: black;
+    font-family: monospace;
+}
+
+h1 {
+   font-family: "Prompt";
+}
+
+h2,h3,h4,h5 {
+    font-family: monospace;
+}
+
+proxyFrame {
+    width: 100%;
+	height: 400px; /* Adjust the height as needed */
+	border-top: white;
+	border-bottom: white;
+	border: none;
+	resize: both;   
+}

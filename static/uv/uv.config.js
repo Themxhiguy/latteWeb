@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/static/mochi/',
-    bare:'https://skibzy.global.ssl.fastly.net/bear/',
+    bare: 'https://play.szvy.win/bare/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/static/uv/uv.handler.js',
