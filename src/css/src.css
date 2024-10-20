@@ -21,7 +21,7 @@ h2,h3,h4,h5 {
     font-family: monospace;
 }
 
-proxyFrame {
+#proxyFrame {
     width: 100%;
 	height: 400px; /* Adjust the height as needed */
 	border-top: white;
