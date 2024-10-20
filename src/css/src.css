@@ -28,11 +28,18 @@ h2,h3,h4,h5 {
 	resize: both;   
 }
 
-.controls {
+button {
     color: white;
     font-family: monospace;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: large;
+    background-color: #483645;
 }
 
-.controls:hover {
+button:hover {
     transform: scale(1.1);
 }
