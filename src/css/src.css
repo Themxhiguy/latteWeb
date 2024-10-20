@@ -34,6 +34,6 @@ h2,h3,h4,h5 {
     color: white;
 }
 
-controls:hover {
+.controls:hover {
     transform: scale(1.1);
 }
