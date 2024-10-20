@@ -8,50 +8,11 @@
 <script src="/static/uv/uv.config.js"></script>
 <script src="/static/uv/register-sw.js"></script>
 <script src="/iframe.js"></script>
-<link href="/src/css/src.css" rel="stylesheet">
-<script src="/src/js/refresh-page.js"></script>
-<script src="/src/js/fs.js"></script>
-<script>
-var urlObj = new window.URL(window.location.href);
-      var url = "https://mochilearning.vercel.app/iframe.html#";
-      if (url) {
-        var win;
- 
-        document.querySelector('button').onclick = function() {
-          if (win) {
-            win.focus();
-          } else {
-            win = window.open();
-            win.document.body.style.margin = '0';
-            win.document.body.style.height = '100vh';
-            var iframe = win.document.createElement('iframe');
-            iframe.style.border = 'none';
-            iframe.style.width = '100%';
-            iframe.style.height = '100%';
-            iframe.style.margin = '0';
-            iframe.src = url;
-            win.document.body.appendChild(iframe);
-          }
-        };
-      }
-</script>
  </head>
 <body>
   <center>
-    <iframe id="proxyFrame" src="/iframe.html#"></iframe>
-    <a onclick="refreshFrame()">
-    <button>Refresh</button>
-    </a>
-    -
-    <a onclick="toggleFullscreen()">
-    <button>Fullscreen</button>
-    </a>
-    -
-    <a href="https://google.com">
-      <button>Cloak</button>
-      </a> 
+    <h1>loading url :3</h1>
+    <p style="display: block;">loading speeds determine on your internet.</p>
   </center>
-
-  <!-- this gotta work :3 -->
 </body>
 </html>
