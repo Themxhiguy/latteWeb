@@ -17,13 +17,16 @@ h1 {
    font-family: "Prompt";
 }
 
-h2,h3,h4,h5 {
+h2,h3,h4,h5,p {
     font-family: monospace;
 }
 
 #proxyFrame {
-    width: 900;
-	height: 700; 
 	border: none;
 	resize: both;   
+}
+
+.white {
+    justify-content: center, space-between;
+    font-family: "Prompt";
 }
