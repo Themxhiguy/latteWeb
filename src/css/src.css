@@ -1,8 +1,11 @@
 @font-face {
     font-family: Gsans;
-    src: url(fonts/gsans.ttf);
+    src: url(/fonts/gsans.ttf);
   }
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@363&display=swap');
+@font-face {
+    font-family: Fredoka;
+    src: url(/fonts/fredoka.ttf);
+}
 
 html {
    background-color: #221F30;
@@ -41,7 +44,9 @@ h4,h5,p {
   padding: 12px;
   text-align: center;
   color: black;
-  font-family: "Prompt";
+  font-family: "Gsans";
   background-color: white;
-  outline: none; 
+  outline: none;
+
+  transition: hover .2s;
 }
