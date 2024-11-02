@@ -10,8 +10,7 @@
 html {
    background-color: #221F30;
    color: white;
-   text-align: center;
-   justify-content: center;
+ text-align: center;
    display: flex;
 }
 
@@ -38,8 +37,8 @@ h4,h5,p {
 
 #uv-form {
     width: 35%;
-  background-color: white;
-  border: 1.5px black solid;
+  background-color: transparent;
+  border: 1.5px #ffffff solid;
   border-radius: 10px;
   font-size: 14px;
   padding: 12px;
