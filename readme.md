@@ -5,4 +5,6 @@ welcome to gaming paradise!!!
 proxy, not that big of a file size, uhhhhh
 
 # Credits
-https://szvy.win < created bare server for this stupid website!!
+https://bare.benrogo.net/ < the bare server for this website!!
+
+https://3kh0.net < the person who made these stupid games

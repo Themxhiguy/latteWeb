@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@363&display=swap');
 
 html {
    background-color: #221F30;
@@ -7,19 +8,13 @@ html {
    justify-content: center;
 }
 
-.box {
-    display: block;
-    background-color: black;
-    font-family: monospace;
-}
-
-h1 {
+h1,h2,h3 {
    font-family: "Prompt";
    color: white;
 }
 
-h2,h3,h4,h5,p {
-    font-family: monospace;
+h4,h5,p {
+    font-family: "Fredoka";
 }
 
 #proxyFrame {
@@ -32,4 +27,18 @@ h2,h3,h4,h5,p {
 .white {
     justify-content: center, space-between;
     font-family: "Prompt";
+}
+
+#uv-form {
+width: 35%;
+  background-color: transparent;
+  border: 1.5px #ffffff solid;
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 12px;
+  text-align: center;
+  color: black;
+  font-family: "Prompt";
+  background-color: white;
+  outline: none;
 }
