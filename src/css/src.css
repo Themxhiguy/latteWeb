@@ -30,9 +30,9 @@ h4,h5,p {
 }
 
 #uv-form {
-width: 35%;
-  background-color: transparent;
-  border: 1.5px #ffffff solid;
+    width: 35%;
+  background-color: white;
+  border: 1.5px black solid;
   border-radius: 10px;
   font-size: 14px;
   padding: 12px;
@@ -40,5 +40,5 @@ width: 35%;
   color: black;
   font-family: "Prompt";
   background-color: white;
-  outline: none;
+  outline: none; 
 }
