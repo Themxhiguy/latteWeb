@@ -1,4 +1,7 @@
-@import url(/fonts/gsans.ttf);
+@font-face {
+    font-family: Gsans;
+    src: url(fonts/gsans.ttf);
+  }
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@363&display=swap');
 
 html {
