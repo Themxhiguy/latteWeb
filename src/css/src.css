@@ -12,6 +12,7 @@ html {
    color: white;
    text-align: center;
    justify-content: center;
+   display: flex;
 }
 
 h1,h2,h3 {
