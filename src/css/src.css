@@ -13,12 +13,15 @@ html {
  text-align: center;
    display: flex;
    justify-content: center;
-
+   margin: 0;
+   padding: 0;
 }
 
 h1,h2,h3 {
    font-family: "Gsans";
    color: white;
+   margin-bottom: 20px; 
+   margin-top: 160px;
 }
 
 h4,h5,p {
@@ -48,6 +51,7 @@ h4,h5,p {
       background-color: white;
       outline: none;
       transition: hover .2s;
+      width: 500px;
     }
 
     .bookmarks {
@@ -57,19 +61,20 @@ h4,h5,p {
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      font-size: 16px;
+      font-size: 15px;
       margin: 5px;
       border: 3px solid white;
         border-radius: 4px;
+       text-decoration: underline;
     }
     
     .bookmarks img {
-      width: 110px;
-      height: 110px;
+      width: 50px;
+      height: 50px;
       border-radius: 10px;
       aspect-ratio: 1 / 1;
     }
 
     .bookmarks:hover {
-      transform: scale(1.1);
+      background-color: mediumpurple;
     }
