@@ -77,4 +77,10 @@ h4,h5,p {
 
     .bookmarks:hover {
       background-color: mediumpurple;
+    transition: .3s;
     }
+
+.bookmarks p:hover {
+  transform: scale(1.1);
+  transition: .3s;
+}
