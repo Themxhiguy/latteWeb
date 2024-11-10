@@ -1,4 +1,4 @@
-# Mochi Learning
+# mochaWeb
 welcome to gaming paradise!!!
 
 # Features
