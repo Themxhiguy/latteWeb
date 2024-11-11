@@ -76,7 +76,7 @@ h4,h5,p {
     }
 
     .bookmarks:hover {
-      background-color: mediumpurple;
+      background-color: #fae6fa;
     transition: .3s;
     }
 
