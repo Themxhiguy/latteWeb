@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Gsans;
-    src: url(/fonts/gsans.ttf);
+    font-family: Prompt;
+    src: url(/fonts/prompt.ttf);
   }
 @font-face {
     font-family: Fredoka;
@@ -18,7 +18,7 @@ html {
 }
 
 h1,h2,h3 {
-   font-family: "Gsans";
+   font-family: "Prompt";
    color: white;
    margin-bottom: 20px; 
    margin-top: 160px;
@@ -47,7 +47,7 @@ h4,h5,p {
       padding: 12px;
     text-align: center;
       color: black;
-      font-family: "Gsans";
+      font-family: "Prompt";
       background-color: white;
       outline: none;
       transition: hover .2s;
@@ -55,7 +55,7 @@ h4,h5,p {
     }
 
     .bookmarks {
-      background-color: #221F30;
+      background-color: transparent;
       color: white;
       padding: 10px 20px;
       text-align: center;
@@ -63,20 +63,16 @@ h4,h5,p {
       display: inline-block;
       font-size: 15px;
       margin: 5px;
-      border: 3px solid white;
-        border-radius: 4px;
-       text-decoration: underline;
+      justify-content: space-between;
     }
     
     .bookmarks img {
-      width: 50px;
-      height: 50px;
-      border-radius: 10px;
-      aspect-ratio: 1 / 1;
+      border-radius: 50px;
+      width: 5px;
+      height: 5px;
     }
 
     .bookmarks:hover {
-      background-color: #fae6fa;
     transition: .3s;
     }
 
