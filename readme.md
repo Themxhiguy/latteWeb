@@ -1,4 +1,4 @@
-# mochaWeb
+# latteWeb
 welcome to gaming paradise!!!
 
 # Features
